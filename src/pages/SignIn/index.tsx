@@ -43,7 +43,7 @@ const SignIn: React.FC = () => {
   const navigation = useNavigation();
 
   const { signIn, user } = useAuth();
-  console.log(user);
+
   Keyboard.addListener('keyboardDidShow', () => setKeyboardIsOpen(true));
   Keyboard.addListener('keyboardDidHide', () => setKeyboardIsOpen(false));
 
